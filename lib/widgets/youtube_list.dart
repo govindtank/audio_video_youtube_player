@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-import '../providers/media_provider.dart';
+
 import '../models/media_item.dart';
 import '../screens/youtube_player_screen.dart';
 

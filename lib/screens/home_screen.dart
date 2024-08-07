@@ -1,13 +1,10 @@
-import 'package:audio_video_youtube_player/screens/shorts_by_video_url.dart';
-import 'package:flutter/foundation.dart';
+import 'package:audio_video_youtube_player/screens/youtube_shorts_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../widgets/audio_list.dart';
 import '../widgets/mini_player.dart';
-import '../widgets/shorts_list.dart';
 import '../widgets/video_list.dart';
 import '../widgets/youtube_list.dart';
-import 'VideoListPage.dart';
 
 class HomeScreen extends StatelessWidget {
   @override
@@ -37,7 +34,8 @@ class HomeScreen extends StatelessWidget {
                         AudioList(),
                         VideoList(),
                         YoutubeList(),
-                        VideoListPage()
+                        YoutubeShortsScreen()
+                        // ShortsList()
                         // ShortsByVideoUrl()
                         // ShortsList()
                       ],
