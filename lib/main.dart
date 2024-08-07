@@ -21,7 +21,7 @@ class MediaPlayerApp extends StatelessWidget {
           primarySwatch: Colors.blue,
         ),
         home: HomeScreen(),
-      ),
+      )
     );
   }
 }

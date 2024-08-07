@@ -39,6 +39,9 @@ dependencies:
   just_audio: ^0.9.18
   video_player: ^2.3.0
   youtube_player_iframe: ^2.2.4
+  youtube_shorts: ^3.1.0
+  video_shop_flutter: ^1.1.1
+
 
 dev_dependencies:
   flutter_test:
