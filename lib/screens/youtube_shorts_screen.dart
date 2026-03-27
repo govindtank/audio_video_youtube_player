@@ -58,9 +58,9 @@ class _ShortsWidgetState extends State<ShortsWidget> {
           contentSize: widget.shorts.length,
           swipePositionThreshold: 0.2,
           // ^ the fraction of the screen needed to scroll
-          swipeVelocityThreshold: 2000,
+          swipeVelocityThreshold: 1500,
           // ^ the velocity threshold for smaller scrolls
-          animationDuration: const Duration(milliseconds: 400),
+          animationDuration: const Duration(milliseconds: 200),
           // ^ how long the animation will take
           controller: controller,
           // ^ registering our own function to listen to page changes
