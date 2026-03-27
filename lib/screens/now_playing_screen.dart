@@ -15,7 +15,7 @@ class NowPlayingScreen extends StatelessWidget {
           title: const Text('Now Playing'),
         ),
         body: const Center(
-          child: Text('No media playing'),
+          child: Text('No media playing found!'),
         ),
       );
     }
@@ -32,7 +32,7 @@ class NowPlayingScreen extends StatelessWidget {
               aspectRatio: mediaProvider.videoPlayerController!.value.aspectRatio,
               child: VideoPlayer(mediaProvider.videoPlayerController!),
             ),
-          Text(mediaItem.title, style: const TextStyle(fontSize: 24)),
+          Text(mediaItem.title, style: const TextStyle(fontSize: 26)),
           IconButton(
             icon: Icon(mediaProvider.isPlaying ? Icons.pause : Icons.play_arrow),
             onPressed: mediaProvider.togglePlayPause,
